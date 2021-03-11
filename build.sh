@@ -1,0 +1,1 @@
+g++ -shared -o libtest.so -fPIC -static-libstdc++ test.cpp 

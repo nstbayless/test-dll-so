@@ -4,7 +4,7 @@
       __declspec(dllexport)
 #endif
 
-#ifdef __linux__ 
+#ifndef external
    #define external          \
       extern "C"             
 #endif
